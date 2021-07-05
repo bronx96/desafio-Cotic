@@ -1,0 +1,63 @@
+.main-bg{
+    background-image: url('../assets/The-Boys-segunda-temporada-scaled.jpg');
+    background-size: cover;
+}
+.transparent{
+    opacity: 0.5;
+}
+section{
+    background: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    width: 66%;
+    opacity: 0.85;
+    margin: auto;
+    margin-top: 30px;
+}
+div{
+    padding: 5px;
+}
+h1{
+    text-align: center;
+}
+h5{
+    color: rgb(104, 104, 104);
+}
+#nome-per{
+    width:500px;
+    margin-left: 10px;
+}
+#idade{
+    margin-left: 128px;
+}
+#nome-at{
+    margin-left: 45px;
+    width:500px;
+
+}
+#the{
+    margin-left: 80px;
+}
+#bio{
+    width: 500px;
+    margin-left: 105px;
+}
+#enviar{
+    margin-left: 550px;
+}
+#title{
+    color: seashell;
+    background-color: black;
+    width: 20px;
+}
+table{
+    width: 600px;
+}
+#the{
+    color: blue;
+    font-family: fantasy;
+}
+#super{
+    color: rgb(104, 0, 0);
+    font-family: fantasy;
+}

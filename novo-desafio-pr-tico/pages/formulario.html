@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>The Boys 3 - Formulário</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/main.css" />
+  </head>
+  <body class="main-bg">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light transparent">
+      <a class="navbar-brand" href="#"
+        ><img src="../assets/logo_cotic.fw.png" width="256" height="64" alt=""
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#conteudoNavbarSuportado"
+        aria-controls="conteudoNavbarSuportado"
+        aria-expanded="false"
+        aria-label="Alterna navegação"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >inicio <span class="sr-only">(página atual)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="formulario.html">
+              Formulário <span class="sr-only">(página atual)</span>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="lista.html">
+              Lista <span class="sr-only">(página atual)</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section>
+      <H1>Formulário de inscrição de de personagem</H1>
+      <form method="get" action="http://localhost/novo-desafio-pr-tico/backend_php/api/registrar.php">
+      <legend><h5>Preencha as informações a baixo para idealizar um personagem da terceira temporada de the boys</h5></legend>
+      <div>nome do personagem: <input type="text>" name="nomeper" id="nome-per" maxlength="30"></div>
+      <div>idade: <input type="number" name="idad" id="idade"> </div>
+      <div>possivel ator/atriz <input type="text" name="nomeat" id="nome-at" maxlength="30"></div>
+      <div>alinhamento
+        <input type="radio" name="tipo" value="the boys" id="the" checked>
+        <label for="the">The boys</label> &nbsp
+        <input type="radio" name="tipo" value="super" id="sup">
+        <label for="sup">Super</label>
+      </div>
+      <div>biografia <textarea type="text" name="biogra" id="bio" cols="40" rows="4"></textarea></div>
+      <div><input type="submit" id="enviar"></div>
+    </form>
+    </section>
+    
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
